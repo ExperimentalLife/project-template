@@ -1,0 +1,17 @@
+@mixin loader-circle($prefix, $length) {
+   $sec: 1.2s;
+   @for $i from 1 through $length {
+      #{$prefix}-#{$i} {
+         $rotate: 30deg * $i;
+         -webkit-transform: rotate($rotate);
+         -ms-transform: rotate($rotate);
+         transform: rotate($rotate);
+
+         & > div {
+            $time: #{($i * 0.1) - $sec};
+            -webkit-animation-delay: $time;
+            animation-delay: $time;
+         }
+      }
+   }
+}

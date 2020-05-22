@@ -1,0 +1,28 @@
+<layout-wrapper>
+   <layout-header logoLink="/">
+      <layout-header-logo><b>Angular </b>AdminLTE</layout-header-logo>
+      <layout-header-logo-mini><b>A</b>LTE</layout-header-logo-mini>
+      <div>Hola mundo header</div>
+   </layout-header>
+   <layout-sidebar>
+      <div>
+         Sidebr asdsad
+      </div>
+   </layout-sidebar>
+   <layout-content>
+      <div layout-content-before-header>
+         <div *loadingPage="{checkPendingHttp: true, checkPendingRoute: true}">
+            <loader-material-bar></loader-material-bar>
+         </div>
+      </div>
+      <router-outlet></router-outlet>
+   </layout-content>
+   <layout-footer>
+      <layout-footer-left>
+         <strong>Developed by <a href="https://experimentallife.dev">Experimental Life &#10084;</a>.</strong>
+      </layout-footer-left>
+      <layout-footer-right>
+         <strong><a href="https://adminlte.io/">AdminLTE <b>Version</b> 2.4.2 &#9749;</a>.</strong>
+      </layout-footer-right>
+   </layout-footer>
+</layout-wrapper>
