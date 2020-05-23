@@ -14,9 +14,9 @@ import {
 } from '@angular/core';
 import { Event as RouterEvent, NavigationEnd, PRIMARY_OUTLET, Router } from '@angular/router';
 
-import { removeSubscriptions, removeListeners } from '@core/helpers/functions';
+import { removeSubscriptions, removeListeners } from '@core/helpers/subscription.functions';
 import { WrapperService } from '@core/services/layout/wrapper.service';
-import { SidebarToggleDirective } from '@shared/directives/layout/sidebar.directive';
+import { SidebarToggleDirective } from '@shared/directives/sidebar.directive';
 import { AnimationEvent } from '@core/models/common/animations.interface';
 import { RoutingService } from '@core/services/routing.service';
 import { HeaderService } from '@core/services/layout/header.service';
@@ -43,7 +43,7 @@ export type Items = Array<Item>;
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SidebarComponent implements OnInit, AfterViewInit, OnDestroy {
-  public menu: Array<any>;
+  public menu: Array<any>
   public sidebarHeight: number;
   public sidebarOverflow: string;
 

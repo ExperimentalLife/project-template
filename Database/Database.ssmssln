@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 12.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01. SQL Database Types", "01. SQL Database Types\01. SQL Database Types.ssmssqlproj", "{C2167393-33AA-4625-B9DC-8A0BFE215874}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02. SQL Database Tables", "02. SQL Database Tables\02. SQL Database Tables.ssmssqlproj", "{2F19783E-E21C-42A7-8BAC-AC690F7095B7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03. SQL Database Functions", "03. SQL Database Functions\03. SQL Database Functions.ssmssqlproj", "{0AEDE94D-0989-432B-A4BC-56E1A2BC9B6E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04. SQL Database Views", "04. SQL Database Views\04. SQL Database Views.ssmssqlproj", "{0AEE5034-1AE3-48B0-B24C-6CA3B83E8882}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "05. SQL Database Triggers", "05. SQL Database Triggers\05. SQL Database Triggers.ssmssqlproj", "{A5BC228C-C70E-4957-A2B9-5CD18F253442}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06. SQL Database Updates", "06. SQL Database Updates\06. SQL Database Updates.ssmssqlproj", "{A2DB1923-AAC5-40A0-8F34-D1D244A8DCF2}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07. SQL Database Data", "07. SQL Database Data\07. SQL Database Data.ssmssqlproj", "{E8CD95C1-CBD0-41A7-979D-81EF7E661704}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08. SQL Database StoreProcedures", "08. SQL Database StoreProcedures\08. SQL Database StoreProcedures.ssmssqlproj", "{7AF0024D-56AD-477E-B1B8-FD02E1C9C1D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2167393-33AA-4625-B9DC-8A0BFE215874}.Default|Default.ActiveCfg = Default
+		{2F19783E-E21C-42A7-8BAC-AC690F7095B7}.Default|Default.ActiveCfg = Default
+		{0AEDE94D-0989-432B-A4BC-56E1A2BC9B6E}.Default|Default.ActiveCfg = Default
+		{0AEE5034-1AE3-48B0-B24C-6CA3B83E8882}.Default|Default.ActiveCfg = Default
+		{A5BC228C-C70E-4957-A2B9-5CD18F253442}.Default|Default.ActiveCfg = Default
+		{A2DB1923-AAC5-40A0-8F34-D1D244A8DCF2}.Default|Default.ActiveCfg = Default
+		{E8CD95C1-CBD0-41A7-979D-81EF7E661704}.Default|Default.ActiveCfg = Default
+		{7AF0024D-56AD-477E-B1B8-FD02E1C9C1D4}.Default|Default.ActiveCfg = Default
+		{A87E4799-4CD8-4739-B816-0F591C34B517}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

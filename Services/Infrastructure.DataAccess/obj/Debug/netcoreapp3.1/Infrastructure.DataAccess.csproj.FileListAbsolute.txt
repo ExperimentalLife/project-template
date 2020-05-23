@@ -1,0 +1,16 @@
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Infrastructure.DataAccess.deps.json
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Infrastructure.DataAccess.dll
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Infrastructure.DataAccess.pdb
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Domain.Model.dll
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Domian.Common.dll
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Infrastructure.Core.dll
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Domain.Model.pdb
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Domian.Common.pdb
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\bin\Debug\netcoreapp3.1\Infrastructure.Core.pdb
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\obj\Debug\netcoreapp3.1\Infrastructure.DataAccess.csprojAssemblyReference.cache
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\obj\Debug\netcoreapp3.1\Infrastructure.DataAccess.csproj.CoreCompileInputs.cache
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\obj\Debug\netcoreapp3.1\Infrastructure.DataAccess.AssemblyInfoInputs.cache
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\obj\Debug\netcoreapp3.1\Infrastructure.DataAccess.AssemblyInfo.cs
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\obj\Debug\netcoreapp3.1\Infrastructure.DataAccess.csproj.CopyComplete
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\obj\Debug\netcoreapp3.1\Infrastructure.DataAccess.dll
+D:\EXPOSITION\project-cv\Services\Infrastructure.DataAccess\obj\Debug\netcoreapp3.1\Infrastructure.DataAccess.pdb

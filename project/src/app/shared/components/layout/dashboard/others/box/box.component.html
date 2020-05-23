@@ -1,0 +1,34 @@
+<div *ngIf="!removed" [Color]="boxColor" ColorProperty="border-color" ColorPrefix="box" [ngClass]="styleClass" [class.collapsed-box]="isCollapsed && !isCollaping" [class.box-solid]="isSolid" [CollapseAnimation]="remove" (CollapseAnimation.done)="removedDone($event)">
+  <div *ngIf="header || boxHeaderDirective" [ngClass]="headerStyleClass" [Color]="boxColor" [ColorCondition]="isSolid" ColorProperty="background-color" [class.with-border]="headerBorder">
+    <h3 class="box-title" [FontColor]="headerColor">
+      {{header}}
+      <ng-content select="box-header"></ng-content>
+    </h3>
+    <div class="box-tools pull-right">
+      <ng-content select="box-tools"></ng-content>
+      <button *ngIf="isCollapsable" type="button" [ngClass]="buttonsStyleClass" #toggleButtonElement>
+        <i class="fa" [ngClass]="{'fa-plus': isCollapsed, 'fa-minus': !isCollapsed}"></i>
+      </button>
+      <button *ngIf="isRemovable" type="button" [ngClass]="buttonsStyleClass" #removeButtonElement>
+        <i class="fa fa-times"></i>
+      </button>
+    </div>
+  </div>
+  <div [ngClass]="contentStyleClass" [FontColor]="contentColor" [CollapseAnimation]="isCollapsed" (CollapseAnimation.start)="collapseStart($event)" (CollapseAnimation.done)="collapseDone($event)">
+    <div class="box-body">
+      <ng-container *ngIf="boxHeaderDirective || boxContentDirective || boxFooterDirective || boxToolsDirective; else noDirective">
+        <ng-content select="box-content"></ng-content>
+      </ng-container>
+      <ng-template #noDirective>
+        <ng-content></ng-content>
+      </ng-template>
+    </div>
+    <div *ngIf="footer || boxFooterDirective" [ngClass]="footerStyleClass" [FontColor]="footerColor">
+      {{footer}}
+      <ng-content select="box-footer"></ng-content>
+    </div>
+  </div>
+  <div *ngIf="isLoading" class="overlay">
+    <i [ngClass]="loadingStyleClass" [FontColor]="loadingColor"></i>
+  </div>
+</div>

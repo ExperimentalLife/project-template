@@ -4,7 +4,7 @@ import { Title } from '@angular/platform-browser';
 import { RoutingService } from '@core/services/routing.service';
 import { HeaderService } from '@core/services/layout/header.service';
 import { FooterService } from '@core/services/layout/footer.service';
-import { removeSubscriptions } from '@core/helpers/functions';
+import { removeSubscriptions } from '@core/helpers/subscription.functions';
 import { LayoutStoreService } from '@core/services/layout/layout-store.service';
 
 @Component({

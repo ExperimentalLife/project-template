@@ -1,0 +1,9 @@
+D:\EXPOSITION\project-cv\Services\Domain.Model\bin\Debug\netcoreapp3.1\Domain.Model.deps.json
+D:\EXPOSITION\project-cv\Services\Domain.Model\bin\Debug\netcoreapp3.1\Domain.Model.dll
+D:\EXPOSITION\project-cv\Services\Domain.Model\bin\Debug\netcoreapp3.1\Domain.Model.pdb
+D:\EXPOSITION\project-cv\Services\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.csproj.CoreCompileInputs.cache
+D:\EXPOSITION\project-cv\Services\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.AssemblyInfoInputs.cache
+D:\EXPOSITION\project-cv\Services\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.AssemblyInfo.cs
+D:\EXPOSITION\project-cv\Services\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.dll
+D:\EXPOSITION\project-cv\Services\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.pdb
+D:\EXPOSITION\project-cv\Services\Domain.Model\obj\Debug\netcoreapp3.1\Domain.Model.csprojAssemblyReference.cache

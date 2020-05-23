@@ -1,0 +1,9 @@
+D:\EXPOSITION\project-cv\Services\Domian.Common\bin\Debug\netcoreapp3.1\Domian.Common.deps.json
+D:\EXPOSITION\project-cv\Services\Domian.Common\bin\Debug\netcoreapp3.1\Domian.Common.dll
+D:\EXPOSITION\project-cv\Services\Domian.Common\bin\Debug\netcoreapp3.1\Domian.Common.pdb
+D:\EXPOSITION\project-cv\Services\Domian.Common\obj\Debug\netcoreapp3.1\Domian.Common.csprojAssemblyReference.cache
+D:\EXPOSITION\project-cv\Services\Domian.Common\obj\Debug\netcoreapp3.1\Domian.Common.csproj.CoreCompileInputs.cache
+D:\EXPOSITION\project-cv\Services\Domian.Common\obj\Debug\netcoreapp3.1\Domian.Common.AssemblyInfoInputs.cache
+D:\EXPOSITION\project-cv\Services\Domian.Common\obj\Debug\netcoreapp3.1\Domian.Common.AssemblyInfo.cs
+D:\EXPOSITION\project-cv\Services\Domian.Common\obj\Debug\netcoreapp3.1\Domian.Common.dll
+D:\EXPOSITION\project-cv\Services\Domian.Common\obj\Debug\netcoreapp3.1\Domian.Common.pdb

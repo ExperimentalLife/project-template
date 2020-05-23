@@ -6,18 +6,19 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpInterceptorService } from './interceptors/http-interceptor.service';
+import { AuthServiceConfig } from './social/auth.service';
+import { SocialLoginModule } from './social/sociallogin.module';
+import { providerSocialConfig } from './social/providers/config-provider';
 
 
 @NgModule({
    imports: [
-      HttpClientModule,
-      BrowserModule,
-      BrowserAnimationsModule,
    ],
    exports: [
       HttpClientModule,
       BrowserModule,
-      BrowserAnimationsModule
+      BrowserAnimationsModule,
+      SocialLoginModule
    ],
    providers: [
       AuthGuard,
@@ -26,6 +27,10 @@ import { HttpInterceptorService } from './interceptors/http-interceptor.service'
          provide: HTTP_INTERCEPTORS,
          useClass: HttpInterceptorService,
          multi: true
+      },
+      {
+         provide: AuthServiceConfig,
+         useFactory: providerSocialConfig
       }
    ]
 })

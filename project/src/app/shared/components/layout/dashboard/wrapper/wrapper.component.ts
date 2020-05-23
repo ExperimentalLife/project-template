@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy, ElementRef, Renderer2, NgZone } from "@angular/core";
 import { WrapperService } from '@core/services/layout/wrapper.service';
 import { Subscription } from 'rxjs';
-import { throttle, removeSubscriptions, removeListeners } from '@core/helpers/functions';
+import { throttle, removeSubscriptions, removeListeners } from '@core/helpers/subscription.functions';
 import { LayoutStoreService } from '@core/services/layout/layout-store.service';
 
 @Component({

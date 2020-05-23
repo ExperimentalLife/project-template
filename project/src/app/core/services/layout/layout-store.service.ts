@@ -8,7 +8,7 @@ import { defineConfig } from '@core/helpers/layout.define-config';
 export class LayoutStoreService {
    private readonly layoutState: Observable<LayoutState>;
    private _layoutState: BehaviorSubject<LayoutState>;
-   private readonly initialLayoutState: LayoutState = defineConfig;
+   private readonly initialLayoutState: LayoutState = defineConfig.layout;
 
    constructor() {
       this._layoutState = new BehaviorSubject(this.initialLayoutState);

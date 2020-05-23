@@ -19,7 +19,7 @@ export class HttpInterceptorService implements HttpInterceptor {
       this._httpObservableService.onRequestStart();
 
       let handleRequest;
-      if (request.url.search('/api/auth/token') !== 0)
+      if (request.url.search('/api/Auth/token') !== 0)
          handleRequest = this.handleApiRequest(request, next);
       else
          handleRequest = next.handle(request);

@@ -12,7 +12,7 @@ import {
 } from '@angular/core';
 import { LayoutStoreService } from '@core/services/layout/layout-store.service';
 import { HeaderService } from '@core/services/layout/header.service';
-import { removeListeners, removeSubscriptions } from '@core/helpers/functions';
+import { removeListeners, removeSubscriptions } from '@core/helpers/subscription.functions';
 
 @Component({
   selector: 'layout-header-logo',
@@ -40,8 +40,7 @@ export class HeaderComponent implements AfterViewInit, OnDestroy {
   private _listeners = [];
   private _subscriptions = [];
 
-  @Input() isSidebarLeftToggle = true;
-  @Input() isSidebarRightToggle = true;
+  @Input() isSidebarToggle = true;
   @Input() logoLink: string | any[] = '/';
 
   @ContentChild(HeaderLogoComponent) public headerLogoComponent: HeaderLogoComponent;

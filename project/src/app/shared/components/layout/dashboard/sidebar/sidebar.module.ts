@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { SidebarComponent } from './sidebar.component';
-import { SidebarToggleDirective } from '@shared/directives/layout/sidebar.directive';
-import { CollapseAnimationDirective } from '@shared/directives/animations.directive';
+import { SidebarToggleDirective } from '@shared/directives/sidebar.directive';
+import { AnimationsModule } from '@shared/directives/animations.module';
 
 @NgModule({
-    imports: [CommonModule, RouterModule],
+    imports: [CommonModule, RouterModule, AnimationsModule],
     exports: [SidebarComponent],
-    declarations: [SidebarToggleDirective, SidebarComponent, CollapseAnimationDirective]
+    declarations: [SidebarToggleDirective, SidebarComponent]
 })
 export class SidebarModule { }

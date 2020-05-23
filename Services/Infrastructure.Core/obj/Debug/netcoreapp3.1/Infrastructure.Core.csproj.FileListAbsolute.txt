@@ -1,0 +1,9 @@
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\bin\Debug\netcoreapp3.1\Infrastructure.Core.deps.json
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\bin\Debug\netcoreapp3.1\Infrastructure.Core.dll
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\bin\Debug\netcoreapp3.1\Infrastructure.Core.pdb
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\obj\Debug\netcoreapp3.1\Infrastructure.Core.csprojAssemblyReference.cache
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\obj\Debug\netcoreapp3.1\Infrastructure.Core.csproj.CoreCompileInputs.cache
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\obj\Debug\netcoreapp3.1\Infrastructure.Core.AssemblyInfoInputs.cache
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\obj\Debug\netcoreapp3.1\Infrastructure.Core.AssemblyInfo.cs
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\obj\Debug\netcoreapp3.1\Infrastructure.Core.dll
+D:\EXPOSITION\project-cv\Services\Infrastructure.Core\obj\Debug\netcoreapp3.1\Infrastructure.Core.pdb

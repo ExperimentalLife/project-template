@@ -19,14 +19,14 @@
     	  <i *ngIf="!item.pullRights" class="fa fa-angle-left pull-right"></i>
     	</span>
     </a>
-    <a *ngIf="!item.separator && !item.route" href="#" [menuToggle]="item">
+    <a *ngIf="!item.separator && !item.route" href="#" [MenuToggle]="item">
     	<i [class]="getIconClasses(item)"></i><span>{{item.label}}</span>
     	<span *ngIf="item.children || item.pullRights" class="pull-right-container">
     		<span *ngFor="let rightItem of item.pullRights" class="pull-right {{rightItem.classes}}">{{rightItem.text}}</span>
     	  <i *ngIf="!item.pullRights" class="fa fa-angle-left pull-right"></i>
     	</span>
     </a>
-    <ul *ngIf="item.children" [collapseAnimation]="item.isCollapsed" (collapseAnimation.start)="visibilityStateStart($event)" class="treeview-menu">
+    <ul *ngIf="item.children" [CollapseAnimation]="item.isCollapsed" (CollapseAnimation.start)="visibilityStateStart($event)" class="treeview-menu">
       <ng-container *ngFor="let item of item.children">
         <ng-container *ngTemplateOutlet="sidebarInner; context: {item: item}"></ng-container>
       </ng-container>

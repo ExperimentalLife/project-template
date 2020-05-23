@@ -7,7 +7,7 @@ export class RouterService {
    constructor(private router: Router) { }
 
    redirectToDashboard() {
-      this.router.navigate(['/auth/dashboard']);
+      this.router.navigate(['/']);
    }
 
    redirectToLogin() {
